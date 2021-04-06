@@ -10,6 +10,13 @@ namespace changeconsolecolor
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.WriteLine("Hello Cory");
+            Console.WriteLine("C# is cool!");
+
+            Console.Read();
         }
     }
 }
